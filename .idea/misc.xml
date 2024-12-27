@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/solid-principles-srp/pom.xml" />
+        <option value="$PROJECT_DIR$/solid-principles-ocp/pom.xml" />
       </list>
     </option>
   </component>
