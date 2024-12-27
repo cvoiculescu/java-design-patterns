@@ -11,8 +11,6 @@ import java.util.List;
 @Builder
 public class PhoneSubscriber extends Subscriber {
 
-    private int baseRate;
-
     @Override
     public double calculateBill() {
         List<CallHistory.Call> sessions = CallHistory.getCurrentCalls(subscriberId);

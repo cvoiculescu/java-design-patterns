@@ -11,8 +11,6 @@ import java.util.List;
 @Builder
 public class ISPSubscriber extends Subscriber {
 
-    private int baseRate;
-
     private long freeUsage;
 
     @Override

@@ -13,8 +13,9 @@ import lombok.NoArgsConstructor;
 public abstract class Subscriber {
 
     protected Long subscriberId;
-    private Long phoneNumber;
-    private String address;
+    protected Long phoneNumber;
+    protected String address;
+    protected int baseRate;
 
     public abstract double calculateBill();
 }
