@@ -8,8 +8,9 @@ import java.io.IOException;
 public class UserController {
 
     //Store used by controller
-    private final Store store = new Store();
+
     private final UserValidator validator = new UserValidator();
+    private final UserPersistenceService persistenceService = new UserPersistenceService();
 
     //Create a new user
     public String createUser(String userJson) throws IOException {
@@ -21,7 +22,7 @@ public class UserController {
             return "ERROR";
         }
 
-        store.store(user);
+        persistenceService.saveUser(user);
 
         return "SUCCESS";
     }
