@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="solid-principles-isp" />
-        <module name="solid-principles-srp" />
         <module name="solid-principles-liskov" />
+        <module name="solid-principles-dip" />
+        <module name="solid-principles-srp" />
       </profile>
       <profile name="Annotation profile for Design Principles" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
