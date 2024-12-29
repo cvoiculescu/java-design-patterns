@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/solid-principles-srp/pom.xml" />
         <option value="$PROJECT_DIR$/solid-principles-ocp/pom.xml" />
         <option value="$PROJECT_DIR$/solid-principles-liskov/pom.xml" />
+        <option value="$PROJECT_DIR$/solid-principles-isp/pom.xml" />
       </list>
     </option>
   </component>
