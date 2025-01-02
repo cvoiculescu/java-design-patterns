@@ -3,6 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/creational-builder/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/creational-builder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creational-simple-factory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creational-simple-factory/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/solid-principles-dip/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/solid-principles-dip/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/solid-principles-isp/src/main/java" charset="UTF-8" />
