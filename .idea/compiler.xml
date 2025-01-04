@@ -10,7 +10,7 @@
         <module name="solid-principles-isp" />
         <module name="solid-principles-liskov" />
         <module name="solid-principles-dip" />
-        <module name="creational-factory-method" />
+        <module name="creational-prototype" />
         <module name="solid-principles-srp" />
       </profile>
       <profile name="Annotation profile for Design Principles" enabled="true">
@@ -23,6 +23,7 @@
         <module name="solid-principles-ocp" />
         <module name="creational-simple-factory" />
         <module name="creational-builder" />
+        <module name="creational-factory-method" />
       </profile>
     </annotationProcessing>
   </component>
