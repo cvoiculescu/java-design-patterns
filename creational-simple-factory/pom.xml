@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>org.voiculescu</groupId>
-        <artifactId>parent</artifactId>
+        <artifactId>parent-design-pattern</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

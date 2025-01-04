@@ -10,27 +10,19 @@
         <module name="solid-principles-isp" />
         <module name="solid-principles-liskov" />
         <module name="solid-principles-dip" />
+        <module name="creational-factory-method" />
         <module name="solid-principles-srp" />
       </profile>
-      <profile name="Annotation profile for creational-builder" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-          <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-        </processorPath>
-        <module name="creational-builder" />
-      </profile>
-      <profile name="Annotation profile for creational-simple-factory" enabled="true">
+      <profile name="Annotation profile for Design Principles" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
         </processorPath>
-        <module name="creational-simple-factory" />
         <module name="solid-principles-ocp" />
+        <module name="creational-simple-factory" />
+        <module name="creational-builder" />
       </profile>
     </annotationProcessing>
   </component>

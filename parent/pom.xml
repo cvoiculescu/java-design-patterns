@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.voiculescu</groupId>
-    <artifactId>parent</artifactId>
+    <artifactId>parent-design-pattern</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
 
@@ -45,5 +45,26 @@
             </plugin>
         </plugins>
     </build>
+
+
+    <distributionManagement>
+        <repository>
+            <id>pi-releases</id>
+            <url>http://pi.local:8081/repository/maven-releases/</url>
+            <name>PI releases</name>
+        </repository>
+        <snapshotRepository>
+            <id>pi-snapshots</id>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <url>http://pi.local:8081/repository/maven-snapshots/</url>
+            <name>PI snapshots</name>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>

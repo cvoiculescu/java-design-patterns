@@ -10,7 +10,8 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>creational-builder</artifactId>
+    <artifactId>creational-factory-method</artifactId>
     <version>${revision}</version>
+
 
 </project>
