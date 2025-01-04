@@ -1,17 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.udemy</groupId>
-    <artifactId>design_principles</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>Design Principles</name>
-    <description>Learn Software Design Principles</description>
-
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <parent>
+        <groupId>org.voiculescu</groupId>
+        <artifactId>parent-design-pattern</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <version>${revision}</version>
+    <artifactId>solid-open-close-principle</artifactId>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
