@@ -7,32 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="creational-abstract-factory" />
       </profile>
-      <profile name="Annotation profile for Design Principles" enabled="true">
+      <profile name="Annotation profile for solid-single-responsability-principle" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
         </processorPath>
+        <module name="creational-simple-factory" />
+        <module name="solid-principles-ocp" />
+        <module name="solid-principles-srp" />
         <module name="solid-principles-isp" />
         <module name="solid-principles-liskov" />
-        <module name="creational-simple-factory" />
-        <module name="creational-prototype" />
-        <module name="creational-factory-method" />
-      </profile>
-      <profile name="Annotation profile for solid-open-close-principle" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-          <entry name="$PROJECT_DIR$/../../../dev/java-tools/apache-maven_repo/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-        </processorPath>
-        <module name="solid-principles-ocp" />
         <module name="creational-builder" />
         <module name="solid-principles-dip" />
-        <module name="solid-principles-srp" />
+        <module name="creational-prototype" />
+        <module name="creational-factory-method" />
       </profile>
     </annotationProcessing>
   </component>

@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/creational-simple-factory/pom.xml" />
         <option value="$PROJECT_DIR$/creational-factory-method/pom.xml" />
         <option value="$PROJECT_DIR$/creational-prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/creational-abstract-factory/pom.xml" />
       </list>
     </option>
   </component>
