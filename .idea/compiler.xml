@@ -7,9 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="creational-abstract-factory" />
       </profile>
-      <profile name="Annotation profile for solid-single-responsability-principle" enabled="true">
+      <profile name="Annotation profile for creational-abstract-factory" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -25,6 +24,7 @@
         <module name="solid-principles-dip" />
         <module name="creational-prototype" />
         <module name="creational-factory-method" />
+        <module name="creational-abstract-factory" />
       </profile>
     </annotationProcessing>
   </component>
